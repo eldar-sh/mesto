@@ -1,0 +1,10 @@
+.place {
+    margin: 0 auto;
+    margin-top: 51px;
+}
+
+@media screen and (max-width: 700px) {
+    .place {
+        margin-top: 36px;
+    }
+}
