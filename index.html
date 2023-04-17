@@ -17,55 +17,55 @@
                 <div class="profile__info">
                     <div class=profile__title-container>
                         <h1 class="profile__title">Жак-Ив Кусто</h1>
-                        <button class="profile__edit-button profile__edit-button_popup-open"></button>
+                        <button class="profile__edit-button" type="button"></button>
                     </div>
                     <p class="profile__subtitle">Исследователь океана</p>
                 </div>
             </div>
-            <button class="profile__add-button "></button>
+            <button class="profile__add-button" type="button"></button>
         </section>
         <section class="place">
             <ul class="place__list">
                 <li class="place__item">
-                    <img class="place__img" src="images/place__everest.jpg">
+                    <img class="place__img" alt="эверест" src="images/place__everest.jpg">
                     <div class="place__container-title">
                         <h2 class="place__title">Джомолунгма</h2>
-                        <div class="place__logo"></div>
+                        <button class="place__logo" type="button"></button>
                     </div>
                 </li>
                 <li class="place__item">
-                    <img class="place__img" src="images/place__chogori.jpg">
+                    <img class="place__img" alt="чогори" src="images/place__chogori.jpg">
                     <div class="place__container-title">
                         <h2 class="place__title">Чогори</h2>
-                        <div class="place__logo"></div>
+                        <button class="place__logo" type="button"></button>
                     </div>
                 </li>
                 <li class="place__item">
-                    <img class="place__img" src="images/place__kanchenjunga.jpg">
+                    <img class="place__img" alt="канченджанга" src="images/place__kanchenjunga.jpg">
                     <div class="place__container-title">
                         <h2 class="place__title">Канченджанга</h2>
-                        <div class="place__logo"></div>
+                        <button class="place__logo" type="button"></button>
                     </div>
                 </li>
                 <li class="place__item">
-                    <img class="place__img" src="images/place__lhotse.jpg">
+                    <img class="place__img" alt="лхоцзе" src="images/place__lhotse.jpg">
                     <div class="place__container-title">
                         <h2 class="place__title">Лхоцзе</h2>
-                        <div class="place__logo"></div>
+                        <button class="place__logo" type="button"></button>
                     </div>
                 </li>
                 <li class="place__item">
-                    <img class="place__img" src="images/place__makalu.jpg">
+                    <img class="place__img" alt="макалу" src="images/place__makalu.jpg">
                     <div class="place__container-title">
                         <h2 class="place__title">Макалу</h2>
-                        <div class="place__logo"></div>
+                        <button class="place__logo" type="button"></button>
                     </div>
                 </li>
                 <li class="place__item">
-                    <img class="place__img" src="images/place__dhaulagiri.jpg">
+                    <img class="place__img" alt="дхаулагири" src="images/place__dhaulagiri.jpg">
                     <div class="place__container-title">
                         <h2 class="place__title">Дхаулагири</h2>
-                        <div class="place__logo"></div>
+                        <button class="place__logo" type="button"></button>
                     </div>
                 </li>
             </ul>
@@ -77,12 +77,14 @@
     <div class="popup">
         <div class="popup__content">
             <h2 class="popup__title">Редактировать профиль</h2>
-            <input class="popup__input-name" value="Жак-Ив Кусто">
-            <input class="popup__input-appointment" value="Исследователь океана">
-            <button class="popup__save-btn">Сохранить</button>
-            <button class="popup__close-btn"></button>
+            <form class="popup__form" name="popup-form">
+                <input class="popup__input popup__input_name" name="name" type="text">
+                <input class="popup__input popup__input_job" name="job" type="text">
+                <button class="popup__save-btn" type="submit">Сохранить</button>
+            </form>
+            <button class="popup__close-btn" type="button"></button>
         </div>
     </div>
-    <script src="pages/index.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 </html>

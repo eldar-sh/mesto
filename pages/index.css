@@ -15,11 +15,11 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/popup/__title/popup__title.css);
 @import url(../blocks/popup/__save-btn/popup__save-btn.css);
 @import url(../blocks/popup/__close-btn/popup__close-btn.css);
-@import url(../blocks/popup/__input-name/popup__input-name.css);
-@import url(../blocks/popup/__input-appointment/popup__input-appointment.css);
+@import url(../blocks/popup/__input/popup__input.css);
 @import url(../blocks/popup/_open/popup_open.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__list/place__list.css);

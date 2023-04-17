@@ -1,7 +1,11 @@
 .profile__title-container {
     display: flex;
     align-items: center;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+
+}
+
+@media screen and (max-width: 700px) {
+    .profile__title-container {
+        padding-left: 28px;
+    }
 }
