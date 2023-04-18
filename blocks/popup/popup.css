@@ -5,11 +5,4 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 195px calc((100vw - 430px)/2) 0;
-}
-
-@media screen and (max-width: 700px) {
-    .popup {
-        padding-top: 123px;
-    }
 }

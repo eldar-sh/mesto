@@ -5,7 +5,7 @@
     background-color: #FFFFFF;
     padding: 34px 36px 37px;
     border-radius: 10px;
-    max-width: 358px;
+    min-width: 358px;
 }
 
 @media screen and (max-width: 700px) {
